@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#svinet {
+  font-size: 10rem;
+  font-family:'Quicksand', sans-serif;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+}
+
+@media (max-width: 768px){
+  #svinet {
+    margin-top: 50%;
+    
+  }
+  #knapparna {
+    font-size: 30px;
+  }
+}
+
+#knapparna {
+  font-size: 4rem;
+  font-family:'Quicksand', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
