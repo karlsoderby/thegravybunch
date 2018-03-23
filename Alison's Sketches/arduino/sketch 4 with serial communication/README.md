@@ -1,6 +1,6 @@
 README
 
-# A NeoPixel ring reacting to proximity and pressure
+# A NeoPixel ring reacting to proximity and pressure in connection to a websocket.
 This sketch is a part of the gravy bunch's final project within the courses Programming II and Physical Prototyping.
 In order to start up the serial communication, I made us of Clint Heyer's serial bridge example (https://github.com/ClintH/interactivity/tree/master/websockets/serial-bridge).
 
@@ -39,4 +39,4 @@ $ npm install -g node-gyp
 
  Then, you should start seeing a serial stream of data in the command line tool.
 
- Now you can open the index.html file that is located in the public folder and see how the site will change background colour according to colour changes on your NeoPixel ring.
+ Now you can open the index.html file that is located in the public folder at localhost:4000 in your browser and see how the site will change background colour in accordance with colour changes on your NeoPixel ring.
