@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ws-serial-bridge</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 style="display: none;">ws-serial-bridge</h1>
+    <h2 style="display: none;">Send</h2>
+    <form id="sendForm" style="display: none;">
+     <input type="text" value="test,2,10>" id="sendtoSerial"></input>
+      <input type="submit" value="Send">
+    </form>
+<div>
+<!-- This is here because i struggled with making things clickable so
+  i tried a few different solutions, having an invisible button was one of them
+  i later realized the problem was that i had the play function in the script.js
+  in another function which was interfering with it.-->
+  <!-- <button id="invisibleButton" onclick="buttonClick()"></button> -->
+
+  <!-- Occam's razor, the most obvious solution is the best one, when i figured the problem
+    was in the js file i went with the solution here, the first one i thought of -->
+   <img id="playBtn" src="https://image.freepik.com/free-icon/play-button_318-42541.jpg" onclick="buttonClick()">
+  </div>
+    
+
+    <h2 style="display: none;">Received</h2>
+    <span style="display: none;" id="lastMsg">(nothing)</span>
+    <script type="module" src="reconnecting-websocket.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
