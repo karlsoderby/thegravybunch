@@ -1,9 +1,11 @@
-Having to work with Arduino came at the right time. For me, the final project was all about Arduino.
+Having to work with Arduino came at the right time. For me, the final project was about programming to prototype.
 Having some knowledge of programming, was enough for me to run an Arduino kit.it felt awesome to run codes from Arduino into  prototypes and these prototypes  come to life. 
 
  This made my prototype feel more  digital. I felt  that learning to program means learning how to solve problems using codes.
-Using the arduino board and sensor an insight i had problems with was solved by reading through some ardruino files .I found out that  If the object is 10 cm away from the sensor, and the speed of the sound is 340 m/s or 0.034 cm/µs the sound wave will need to travel about 294 u seconds. But what you will get from the Echo pin will be double that number because the sound wave needs to travel forward and bounce backward.  So in order to get the distance in cm we need to multiply the received travel time value from the echo pin by 0.034 and divide it by 2.
+Using the arduino board and sensor an insight i had problems with was solved by reading through some ardruino github files .
+
 Making positive insights in my programming, I made sure I knew what I wanted to achieve. I had to make prototypes and these prototypes are supposed to be presented to users for user testing. 
+We worked as a group but we had individual task assigned and that brought out the zeal to know more about programming and arduino. I had to make my prototype work.
 Arduino codes being run into the computer are easy to figure out but one has to hold on to it. 
 
 Everybody makes mistakes while programming and finding mistakes in programs consumes a very large part of a programmer’s work-day. Finding a problem in a small and easy piece of code is much simpler than trying to spot it in a large program. This is why one  should try to test each sub task identified during  task-breakdown . Only after you’re confident that each part works as you expect the  you can attempt to plug them together. 
